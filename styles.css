@@ -1,0 +1,50 @@
+.home{
+    background-color: blue;
+}
+.study{
+    background-color: black;
+}
+.practice{
+    background-color: brown;
+}
+.home, .study, .practice{
+    height: 70%;
+    margin-top: 70px;
+    border-radius: 20px;
+    color: white; 
+    justify-content: center; 
+    display: flex; 
+    align-items: center;
+}
+body{
+    height: 100vh;
+}
+.nav-bar{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 5px solid black;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 5px solid black;
+    top: 0;
+    background-color: white;
+}
+
+button{
+    height: 50%;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.active-button{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+.hidden{
+    display: none;
+}
